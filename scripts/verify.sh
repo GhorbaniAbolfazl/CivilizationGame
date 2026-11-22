@@ -58,3 +58,48 @@ java -ea -Djava.awt.headless=true \
   -cp "$test_classpath" civilization.phase2.PerformanceAcceptanceTestSuite
 java -ea -Djava.awt.headless=true \
   -cp "$test_classpath" civilization.phase2.PerformanceIntegrationReviewTestSuite
+# PHASE 3 - Added in Phase 3
+java -ea -Djava.awt.headless=true \
+  -cp "$test_classpath" civilization.phase3.Phase3PredefinedMapTestSuite
+# PHASE 3 - Added in Phase 3
+java -ea -Djava.awt.headless=true \
+  -cp "$test_classpath" civilization.phase3.Phase3ArchitectureFoundationTestSuite
+# PHASE 3 - Added in Phase 3
+java -ea -Djava.awt.headless=true \
+  -cp "$test_classpath" civilization.phase3.Phase3LobbyTestSuite
+# PHASE 3 - Added in Phase 3
+java -ea -Djava.awt.headless=true \
+  -cp "$test_classpath" civilization.phase3.Phase3TurnSynchronizationTestSuite
+# PHASE 3 - Added in Phase 3
+java -ea -Djava.awt.headless=true \
+  -cp "$test_classpath" civilization.phase3.Phase3StateBroadcastTestSuite
+# PHASE 3 - Added in Phase 3
+java -ea -Djava.awt.headless=true \
+  -cp "$test_classpath" civilization.phase3.Phase3ConnectionFailureTestSuite
+# PHASE 3 - Added in Phase 3
+java -ea -Djava.awt.headless=true \
+  -cp "$test_classpath" civilization.phase3.Phase3TextChatTestSuite
+# PHASE 3 - Added in Phase 3
+java -ea -Djava.awt.headless=true \
+  -cp "$test_classpath" civilization.phase3.Phase3PvpCombatTestSuite
+# PHASE 3 - Added in Phase 3
+java -ea -Djava.awt.headless=true \
+  -cp "$test_classpath" civilization.phase3.Phase3PlayerTradeTestSuite
+# PHASE 3 - Added in Phase 3
+java -ea -Djava.awt.headless=true \
+  -cp "$test_classpath" civilization.phase3.Phase3PlayerDiplomacyTestSuite
+# PHASE 3 - Added in Phase 3
+java -ea -Djava.awt.headless=true \
+  -cp "$test_classpath" civilization.phase3.Phase3MultipleHallTownTestSuite
+# PHASE 3 - Added in Phase 3
+java -ea -Djava.awt.headless=true \
+  -cp "$test_classpath" civilization.phase3.Phase3ApothecaryItemTestSuite
+# PHASE 3 - Added in Phase 3
+java -ea -Djava.awt.headless=true \
+  -cp "$test_classpath" civilization.phase3.Phase3SwingIntegrationTestSuite
+# PHASE 3 - Added in Phase 3
+java -ea -Djava.awt.headless=true \
+  -cp "$test_classpath" civilization.phase3.Phase3SecurityAuditTestSuite
+# PHASE 3 - Added in Phase 3
+java -ea -Djava.awt.headless=true \
+  -cp "$test_classpath" civilization.phase3.Phase3ConcurrencyPerformanceAuditTestSuite
