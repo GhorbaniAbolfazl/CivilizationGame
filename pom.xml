@@ -25,12 +25,40 @@
 
     <build>
         <plugins>
+            <!-- PHASE 3 - Added in Phase 3 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.4.1</version>
+                <executions>
+                    <!-- PHASE 3 - Added in Phase 3 -->
+                    <execution>
+                        <id>phase3-client-artifact</id>
+                        <phase>package</phase>
+                        <goals><goal>jar</goal></goals>
+                        <configuration>
+                            <classifier>client</classifier>
+                            <excludes>
+                                <exclude>civilization/server/**</exclude>
+                            </excludes>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.13.0</version>
                 <configuration>
                     <release>${maven.compiler.release}</release>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>3.5.0</version>
+                <configuration>
+                    <mainClass>civilization.bootstrap.CivilizationApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>
