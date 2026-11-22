@@ -1,0 +1,12 @@
+.DS_Store
+.idea/
+.vscode/
+*.iml
+target/
+build/
+out/
+*.class
+tmp/
+
+# Course specifications and internal project documentation
+/docs/
